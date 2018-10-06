@@ -43,7 +43,7 @@
             <small>
                     Created On 
                         <?php echo $post['created_at'];?>
-                    by 
+                        <br>by 
                         <?php echo $post['author'];?>
             </small><hr>
             <p style="padding-left:5%;padding-right:10%">"<?php echo $post['body'];?>"</p> <br>
