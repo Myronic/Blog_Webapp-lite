@@ -34,7 +34,7 @@
 <body>
 <?php require('inc/navbar.php');?>
    <div class="container-fluid " style="background-color:burlywood; padding:20px">
-   <h1 class="text-center">---POSTS---</h1>
+   <h1 class="text-center h"><b>BLOGS</b></h1>
     <div class="container">
     <?php foreach($posts as $post):?>
         <hr>
@@ -44,9 +44,10 @@
                     Created On 
                         <?php echo $post['created_at'];?>
                         <br>by 
-                        <?php echo $post['author'];?>
+                        <span style="color:yellow"> <?php echo $post['author'];?></span>
+                
             </small><hr>
-            <p style="padding-left:5%;padding-right:10%">"<?php echo $post['body'];?>"</p> <br>
+            <i><p style="padding-left:5%;padding-right:10%; font-size:2vw">"<?php echo $post['body'];?>"</p></i> <br>
             <div class="text-right">
                 <a class="btn btn-success" href="<?php echo ROOT_URL; ?>post.php?id=<?php echo $post['id']; ?>">read more</a>
             </div>

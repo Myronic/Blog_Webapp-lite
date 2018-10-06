@@ -37,21 +37,20 @@
 <body>
 <?php require('inc/navbar.php');?>
    <div class="container-fluid" style="background-color:burlywood; padding:20px; height:100vh">
+    <div class="container">
     <div class="row justify-content-between">
-
         <div class='col-2' ><a href="<?php echo ROOT_URL; ?>"><button class="btn btn-alert">back</button></a></div>
-
         <div class='col-8'><h1 class="text-right"><?php echo $post['title'];?>|</h1></div>
     </div>
     <hr>
     <div class="jumbotron bg-dark" style="color:ghostwhite"> 
             <h3>"<?php echo $post['body'];?>"</h3>
             <br><br>
-            <p class="text-right" style="font-size:2vw">
+            <p class="text-right" style="font-size:1.2vw">
                 Created On: 
                     <?php echo $post['created_at'];?>
                 <br>-
-                    <?php echo $post['author'];?>
+                    <span style="color:yellow"><?php echo $post['author'];?></span>
             </p>
             <hr>
            
@@ -68,6 +67,7 @@
             </div>
                 
         </div>
+    </div>
     </div>
     <?php  require('inc/footer.php');?>
 </body>
