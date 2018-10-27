@@ -5,5 +5,4 @@ One can add new blogs, edit and delete existing ones.
 [html, js, jquery, php, mysql]
 
 #user account functionality yet to be added.
-
-#make appropriate changes in url path username and password in config/config.php as per localhost.
+#make appropriate changes in url path Username and Password in config/config.php as per localhost.
