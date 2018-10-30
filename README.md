@@ -2,7 +2,7 @@
 A blogging website with CRUD functionalities.
 One can add new blogs, edit and delete existing ones.
 
-[html, js, jquery, php, mysql]
+built using : HTML/CSS/JS/PHP/MySQL
 
 #user account functionality yet to be added.
 
