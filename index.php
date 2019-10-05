@@ -10,12 +10,7 @@
     $result = mysqli_query($conn,$query);
     #fetch data
     $posts = mysqli_fetch_all($result, MYSQLI_ASSOC);
-    // echo "<hr>";
-    // foreach($posts as $post){
-    //    foreach($post as $p){
-    //        echo "<br> $p";
-    //    }echo "<hr>";
-    // }
+   
     #free result
     mysqli_free_result($result);
     #close connection
