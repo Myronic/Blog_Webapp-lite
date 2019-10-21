@@ -44,7 +44,7 @@
                     Created On 
                         <?php echo $post['created_at'];?>
                         <br>by 
-                        <span style="color:yellow"> <?php echo $post['author'];?></span>
+                        <span style="color:yellow"> <?php print $post['author'];?></span>
                 
             </small><hr>
             <i><p style="padding-left:5%;padding-right:10%; font-size:2vw">"<?php echo $post['body'];?>"</p></i> <br>
